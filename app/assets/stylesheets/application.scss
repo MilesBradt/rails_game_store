@@ -14,3 +14,20 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+body {
+ font-family: 'Roboto', sans-serif;
+ background-color: #201F21;
+
+}
+
+.container {
+}
+
+.header-text {
+  text-align: center;
+  font-weight: bold;
+  background-image: linear-gradient(#726753, #201F21);
+  color: #D2CCB6;
+}
