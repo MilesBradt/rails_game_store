@@ -3,4 +3,9 @@ class ListsController < ApplicationController
     @lists = List.all
     render :index
   end
+
+  def games
+    @lists = List.all
+    render :games
+  end
 end
