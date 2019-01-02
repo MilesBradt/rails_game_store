@@ -7,10 +7,11 @@
 
   <h4>Games for sale</h4>
     <ul>
-      <% @lists.each do |list| %>
-        <li><%= list.name %> (<%= list.price %>)</li>
-      <% end %>
+      <li><%= @lists[0].name %> (<%= @lists[0].price %>)</li>
+      <li><%= @lists[1].name %> (<%= @lists[1].price %>)</li>
+      <li><%= @lists[2].name %> (<%= @lists[2].price %>)</li>
     </ul>
+    <button class="view-more" type="button" name="view-more">View More</button>
   </div>
   <div class="col-md-6 admin">
 
