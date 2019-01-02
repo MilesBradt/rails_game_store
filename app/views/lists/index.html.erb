@@ -3,11 +3,24 @@
 </div>
 
 <div class="container">
+  <div class="col-md-6">
 
-  <ul>
-    <% @lists.each do |list| %>
-      <li><%= list.name %></li>
-    <% end %>
-  </ul>
-  <p>Test</p>
+  <h4>Games for sale</h4>
+    <ul>
+      <% @lists.each do |list| %>
+        <li><%= list.name %> (<%= list.price %>)</li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="col-md-6 admin">
+
+  </div>
+</div>
+<div class="info">
+  <p>Address:</p>
+  <p>555 SE Some Street</p>
+  <p>Beaverton, OR 97006</p>
+  <br>
+  <p>Phone Number:</p>
+  <p>(555)555-5555</p>
 </div>
